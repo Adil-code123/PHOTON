@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <title>Document</title>
+</head>
+<script src="myscripts.js"></script>
+<body>
+
+    <p class="title">PHOTON</p>
+    <p class="title3">HOUSE POINTS</p>
+    <p class="title4">SBT</p>
+    <p class="title2">By Adil Aabideen</p>
+
+    <img class="sphere" src="images/sphere.png">
+
+    <div class="outer3">
+
+    </div>
+
+    <div class="outer2">
+
+    </div>
+    <div class="outer">
+
+    </div>
+    
+
+
+   <div class="outer6" id="outer">
+        
+        
+
+        <label id="nameinput" class="name">PLEASE ENTER STUDENTS NAME </label>
+        <input class="search" id="nameinp" onclick="test()" placeholder="Please Enter Students Name">
+
+        <button class="btn" onclick="results()">
+            SEARCH
+        </button>
+
+   </div>
+
+   <div id="errormessage" class="error">
+
+        <P class="errortag">ERORR</P>
+        <P class="errortag3">Student Not Found</P>
+        <P class="errortag2">Please Try Again</P>
+
+   </div>
+
+   <div class="popupinfo" id="popupinfo">
+        <p id="one" class="one"></p>
+        <p id="two" class="two"></p>
+        <p id="three" class="three"></p>
+        <p id="four" class="four"></p>
+        <p id="five" class="five">House Points : 36 </p>
+        <p id="six" class="six"></p>
+        <p id="seven" class="seven">Add House Points : </p>
+        <img class="pfp"  src="https://lh3.googleusercontent.com/a-/AFdZucpt80vjG5kqdh7H7m0rCdKBjEhRhWYFc-ckQkLkxj8-5RPI87EzqdNaqG5YOao9JI18BahX3oMR9dEZiclM5KzfROMjcUkIXypMN4VLYZR651SiWHAbGVBSAIa0IXEJMriSwEnNFbpCR2EIWXTqyFBq7UOqrHfDmYuTT8gAlVrqEjl5tAYPJUxn0NegtwrCrMf6rlq0fgBgz5jyj4ublJ5cM8khlFFr1ir5iTQ0V7trZfSB9OBnT1ye43c__NwrYe5BK1lr12DsFFiRox77aVI2LwDsS-YVsI0f97Z8GsqJicz92k6_BbtSZV03hvDCAwd4XUcQD0biJLbcI8YCkM7KYqWVSovwEgXkVEusrzJ7nVJu4FyvzscMJdDVOtCjoyUDWSyhUVm9g8q5ZTsM8ncJMNp08MpX1hlBgX3alKhFJwORBpsov7Iik_Y7UEVjmpueWw4y6WJzlz3Xl_uWJIuAzXh-UPcKanSz6lrqF7Y7M747Kfm9OWmKheBSQ7vyA4qKhC3ehuzBg1wyO8kfFcxcYw2W9aGoMQm-3qVxwcIcMfQkRlWsvxR0CLSWtdGStEHtsChGgOLjYlq0AWQn0nFXgumGYnhhqEeVVwhgVmWkXkWtvk84KPxyhSZdVy8UFChk8ViaP1kU1Ogv8HRMF1I4wLZ2FzTI3IqibkNd7fvd-pfNYeeoAbf-MRlHu6agfIWPO_eSH6qyXYgmYbQ19qb-aw6aTHUFgs1CClDfOdJXmgP2yp6xDEmoB-odi-9pSr7P=s40-c">
+        <div class="wrapper">
+            <span id="minus"  class="minus" onclick="neg()">-</span>
+            <span id="numba" class="num" >01</span>
+            <span id="plus" class="plus" onclick="add()">+</span>
+        </div>
+        <button class="btn2" onclick="send()">
+            GO
+        </button>
+        <button class="btndown">
+            Donwload Bill 
+        </button>
+        <input placeholder="Please Enter a reason " class="remarks">
+        <button class="btn3" onclick="back()">
+            Back
+        </button>
+
+   </div>
+
+   <div class="background" id="bg">
+
+    </div>
+    <div class="login" id="login">
+        <p class="loginalert">Login</p>
+        <input class="fullnameinput" placeholder="Please Enter Your Full Name " id="staff">
+        <p id="walletadd" class="walletadd"></p>
+        <button class="btnwallet" onclick="connect()">CONNECT WALLET</button>
+        <button class="btnlogin" onclick="login()">LOGIN</button>
+        <p class="errorlogin" id="errorlogin">Error Login Not Found</p>
+    </div>
+    <script>
+        
+    </script>
+</body>
+</html>
